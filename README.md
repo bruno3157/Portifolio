@@ -1,0 +1,1 @@
+Esse é o meu primeiro código implementado para apresentação das minhas competências, tanto como aprensentar meu trabalho.
