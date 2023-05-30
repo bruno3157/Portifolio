@@ -15,16 +15,42 @@
     
 }
 
+
 header {
-
-
-    width: 100%; /* Largura desejada para a div */
-    height: 80px; /* Altura desejada para a div */
+    position: relative;
+    top: 0;
+    height: auto;
+    width: 100%;
+        
+    /* 
+    margin: 0 10em;
     background-image: url('Media/logobanner1.png');
     background-size:contain;
-    background-repeat: no-repeat; /* A imagem não será repetida */
-    background-color: #ffffff;
+    background-repeat: no-repeat; 
+    background-color: #ffffff; */
+    
+    }
+
+nav{
+
+    position: fixed;
+    top: 0;
+    height: 150px;
+    width: 100px;
+    z-index: 1;
+    background-color: var(--background-color);
+    border-bottom: 1px solid #ccc;
 }
+
+#logo {
+    width: 350px;
+    height: 150px;
+    margin-top: 25px;
+    margin: 0 10em;
+}
+
+
+
 main {
     display: flexbox;
     align-items: center;
