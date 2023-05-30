@@ -1,0 +1,27 @@
+:root {
+
+    --background-color : #ffffff;
+    --color-text : #002333;
+
+}
+
+* {
+    background-color: var(--color-text);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+    width: 300px; /* Largura desejada para a div */
+    height: 200px; /* Altura desejada para a div */
+    background-image: url('Media/logobanner1.png');
+    background-size:contain;
+    background-repeat: no-repeat; /* A imagem não será repetida */
+   
+}
+
+.cabecalho {
+
+    height: 10%;
+}
