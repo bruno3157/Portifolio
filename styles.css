@@ -1,71 +1,54 @@
 :root {
-
     --background-color : #ffffff;
     --color-text : #002333;
     --color-secundaria : #DEEFE7;
     --color-tercearia : #159A9C;
     --color-destaque : #B4BEC9;
-
 }
 
 * {
-    background-color: var(--color-tercearia);
     margin: 0;
     padding: 0;
-    
 }
 
+body {
+    background-color: var(--color-tercearia);
+}
 
-header {
-    position: relative;
-    top: 0;
-    height: auto;
-    width: 100%;
-        
-    /* 
-    margin: 0 10em;
-    background-image: url('Media/logobanner1.png');
-    background-size:contain;
-    background-repeat: no-repeat; 
-    background-color: #ffffff; */
-    
+.navset div{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Lobster', cursive;
+    margin: 15px;
+    padding: 18px;
+    color: var(--color-text);
+}
+
+.navbar a:hover {
+    background-color: var(--color-destaque);
     }
 
-nav{
-
+.navbar {
     position: fixed;
-    top: 0;
-    height: 150px;
-    width: 100px;
-    z-index: 1;
+    text-align: right;
+    top: 5;
+    
+    width: 100%;
+    padding: 30px;
     background-color: var(--background-color);
-    border-bottom: 1px solid #ccc;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 #logo {
-    width: 350px;
-    height: 150px;
-    margin-top: 25px;
-    margin: 0 10em;
-}
-
-
-
-main {
-    display: flexbox;
-    align-items: center;
-    text-align: center;
-}
-
-footer {
-    
-    width: 100%;
-    height: 80px;
-    background-color: var(--color-destaque);
-    align-items: center;
-    text-align: center;
-}
-
-.cabecalho {
-
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
 }
